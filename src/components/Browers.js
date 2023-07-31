@@ -5,11 +5,20 @@ import Homepage from "../pages/Homepage.js";
 import Contactpage from "../pages/Contactpage";
 import Newspage from "../pages/Newspage";
 import Gallerypage from "../pages/Gallerypage";
+import ScrollingImage from "./ScrollingImage";
+
 import {  
     BrowserRouter as Router,  
     Routes,  
     Route,  
 }   from 'react-router-dom'; 
+
+const imageUrls = [
+  'image1.jpg',
+  'image2.jpg',
+  'image3.jpg',
+
+];
 
 const Browers = () =>{
 
@@ -30,6 +39,7 @@ const Browers = () =>{
           </Routes>
         </div>
       </Router>
+      <ScrollingImage />
         </>
     ) 
 }
