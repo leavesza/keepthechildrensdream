@@ -8,7 +8,7 @@ const Contactform = () =>{
     const sendEmail = (e) => {
       e.preventDefault();
         
-      emailjs.sendForm('service_p2xnwsn', 'template_byo25a4', form.current, 'Jg9HfR2hmqP9X4UKK')
+      emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
         .then((result) => {
             console.log(result.text);
             alert('Thanks we will get back to you')
