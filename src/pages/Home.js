@@ -1,12 +1,12 @@
 import React from "react";
+import ScrollingImage from "../components/ScrollingImage";
 
 function Homepage(){
-    return(
-        <div>
-            <h1>HomePage</h1>
-            <p></p>
-        </div>
-    )
-}
-
+        return (
+            <div >
+                <ScrollingImage/>
+            </div>
+          );
+        };
+    
 export default Homepage

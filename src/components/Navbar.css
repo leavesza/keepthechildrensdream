@@ -1,7 +1,7 @@
 /* Navbar.css */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', 'Quicksand';
 }
 
 .navbar-container {
@@ -22,7 +22,7 @@ body {
 
 
 .link {
-  font-size: 0.1; 
+  font-size: 0.01; 
   text-decoration: none;
   color: white;
   font-size: 0.8rem;

@@ -4,6 +4,7 @@ import './Navbar.css'; // Import the CSS file
 
 const Navbar = () => {
   return (
+    
     <nav className="navbar-container bg-red pa3">
       <div className="flex justify-between items-center">
         <div className="navbar-links ma2">

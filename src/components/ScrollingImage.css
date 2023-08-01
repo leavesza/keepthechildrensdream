@@ -1,0 +1,22 @@
+/* App.css */
+.container {
+    width: 100vw; 
+    height: 420px; 
+    overflow: hidden; 
+    margin: 0 auto;
+  }
+  
+  .carousel .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel .slide img {
+    width: 100vw;
+    height: 420px; 
+    object-fit: cover;
+  }
+  
