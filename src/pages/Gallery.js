@@ -1,6 +1,6 @@
 import React from "react";
 
-function Gallerypage(){
+function Gallery(){
     return(
         <div>
             <h1>Gallery</h1>
@@ -8,4 +8,4 @@ function Gallerypage(){
     )
 }
 
-export default Gallerypage
+export default Gallery

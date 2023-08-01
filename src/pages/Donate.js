@@ -1,11 +1,11 @@
 import React from "react";
 
-function Newspage(){
+function Donate(){
     return(
         <div>
-            <h1>Newspage</h1>
+            <h1>Donate</h1>
         </div>
     )
 }
 
-export default Newspage
+export default Donate

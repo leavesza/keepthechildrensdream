@@ -1,28 +1,22 @@
-import React from "react";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import { Link } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css'; // Import the CSS file
 
-function NavBar (){
-    return(
-        <Navbar bg="light" expand="lg">
-        <Container>
-          <Navbar.Brand as={Link} to='/' >Keep The Childrens Dream</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link as={Link} to='/' >Home</Nav.Link>
-              <Nav.Link as={Link} to='/projects' >Projects</Nav.Link>
-              <Nav.Link as={Link} to='/news' >News</Nav.Link>
-              <Nav.Link as={Link} to='/gallery' >Gallery</Nav.Link>
-              <Nav.Link as={Link} to='/contact' >Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    )
-}
+const Navbar = () => {
+  return (
+    <nav className="navbar-container bg-red pa3">
+      <div className="flex justify-between items-center">
+        <div className="navbar-links ma2">
+          <Link to="/" className="link">HOME</Link>
+          <Link to="/projects" className="link">PROJECTS</Link>
+          <Link to="/news" className="link">NEWS</Link>
+          <Link to="/gallery" className="link">GALLERY</Link>
+          <Link to="/contact" className="link">CONTACT US</Link>
+          <Link to="/donate" className="link">DONATE</Link>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
-export default NavBar
+export default Navbar;
