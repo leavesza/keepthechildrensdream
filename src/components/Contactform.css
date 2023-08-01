@@ -1,0 +1,57 @@
+
+  
+  .form-container {
+    max-width: 755px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #333; /* Dark form background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  @media screen and (max-width: 900px) {
+    .form-container {
+        margin: 40px;
+    }
+}
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #bbb; /* Label color for dark mode */
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #555; /* Border color for dark mode */
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #444; /* Input background color for dark mode */
+    color: #f2f2f2; /* Text color for dark mode */
+    box-sizing: border-box;
+    font-famaily: sans-serif;
+    resize: vertical;
+  }
+ 
+  
+  button {
+    background-color: #007aff; /* Button background color for dark mode */
+    color: #f2f2f2; /* Text color for dark mode */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Button background color for dark mode on hover */
+  }
+  
