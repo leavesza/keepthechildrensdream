@@ -22,9 +22,9 @@ const Contactform = () =>{
         <label>Name</label>
         <input type="text" id="user_name" name="user_name" placeholder="Your name" />
         <label>Email</label>
-        <input type="email" id="user_email" name="user_email" />
+        <input type="email" id="user_email" name="user_email" placeholder="Your email" />
         <label>Message</label>
-        <textarea id="message" name="message" />
+        <textarea id="message" name="message" placeholder="Your message" />
         <button type="submit" >Submit</button>
       </form>
         
