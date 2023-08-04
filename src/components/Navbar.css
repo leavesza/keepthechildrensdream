@@ -1,51 +1,15 @@
-/* Navbar.css */
-body {
-  margin: 0;
-  font-family: 'Roboto', 'Quicksand';
+
+.navbar {
+  background-color: #BB2B2D; 
 }
 
-.navbar-container {
-  background-color: #bb2b2d;
-  padding: 1rem;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999; /* Ensure the navbar stays on top of other content */
-}
-
-.navbar-links {
-  display: flex;
-  gap: 1rem;
-  justify-content: center; /* Horizontally center the links */
-}
-
-
-
-.link {
-  font-size: 0.01; 
-  text-decoration: none;
-  color: white;
+.navbar .nav-link {
+  color: #FFFFFF;
+  font-family: "Montserrat", Open Sans;
   font-size: 0.8rem;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  font-weight: 160px;
 }
 
-.link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-  .navbar-links {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .navbar-link {
-    display: block;
-    padding: 0.5rem;
-    text-align: center;
-    font-size: 0.8rem;
-  }
+.navbar .nav-link:hover{
+  color: #007bff;
 }

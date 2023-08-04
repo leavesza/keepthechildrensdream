@@ -7,7 +7,7 @@ import News from './pages/News';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Donate from './pages/Donate';
-import './App.css'; // You can use this file for global styles if needed
+import './App.css'; 
 
 const App = () => {
   return (

@@ -1,22 +1,28 @@
-/* App.css */
-/* .container {
-    width: 100vw; 
-    height: 420px; 
-    overflow: hidden; 
-    margin: 0 auto;
-  } */
-  
-  .carousel .slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    overflow: hidden;
+.carousel-inner{
+  height: 400px;
+}
+
+.container2 .carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+/* .container2 .carousel-caption h5 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.container2 .carousel-caption p {
+  font-size: 16px;
+} */
+
+@media (min-width: 600px) {
+  .container2 .carousel-caption {
+    bottom: 20px;
   }
-  
-  .carousel .slide img {
-    width: 100vw;
-    height: 420px; 
-    object-fit: cover;
-  }
-  
+}

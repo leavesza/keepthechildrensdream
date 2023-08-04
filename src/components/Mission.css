@@ -1,0 +1,30 @@
+.mission-container {
+    background-color: #BB2B2D;
+    padding: 20px;
+  }
+  
+  .mission-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mission-heading h1 {
+    color: white;
+    font-size: 36px;
+  }
+  
+  .mission-image img {
+    max-width: 100%;
+  }
+  
+  .mission-text h2 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .mission-text p {
+    color: white;
+    font-size: 16px;
+  }
+  

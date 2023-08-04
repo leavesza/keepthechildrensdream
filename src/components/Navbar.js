@@ -4,20 +4,21 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
+import './Navbar.css';
 
 const NavBar =()=>{
     return(
-        <Navbar expand="lg">
+        <Navbar expand="lg" className="navbar">
         <Container>
-          <Navbar.Brand as={Link} to='/' >Keep The Childrens Dream</Navbar.Brand>
+          <Navbar.Brand as={Link} to='/' >Logo</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to='/' >Home</Nav.Link>
-              <Nav.Link as={Link} to='/projects' >Projects</Nav.Link>
-              <Nav.Link as={Link} to='/news' >News</Nav.Link>
-              <Nav.Link as={Link} to='/gallery' >Gallery</Nav.Link>
-              <Nav.Link as={Link} to='/contact' >Contact</Nav.Link>
+              <Nav.Link as={Link} to='/' >HOME</Nav.Link>
+              <Nav.Link as={Link} to='/projects' >PROJECTS</Nav.Link>
+              <Nav.Link as={Link} to='/news' >NEWS</Nav.Link>
+              <Nav.Link as={Link} to='/gallery' >GALLERY</Nav.Link>
+              <Nav.Link as={Link} to='/contact' >CONTACT US</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
