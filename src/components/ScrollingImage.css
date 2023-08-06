@@ -12,14 +12,22 @@
   color: #fff;
 }
 
-/* .container2 .carousel-caption h5 {
-  font-size: 24px;
-  margin: 0;
+/*Image filter effects*/
+.custom-carousel .carousel-inner .carousel-item {
+  position: relative;
+  overflow: hidden;
+}
+.custom-carousel .carousel-inner .carousel-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+  opacity: 0.8;
 }
 
-.container2 .carousel-caption p {
-  font-size: 16px;
-} */
 
 @media (min-width: 600px) {
   .container2 .carousel-caption {

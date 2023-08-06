@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import './ScrollingImage.css'
 import image1 from '../image1.jpeg';
-import image2 from '../image2.jpeg';
+
 import image3 from '../image3.jpeg';
 
 // const images = [
@@ -14,7 +14,7 @@ import image3 from '../image3.jpeg';
 function ScrollingImage(){
     return (
         <div className="container2">
-         <Carousel data-bs-theme="dark">
+         <Carousel data-bs-theme="dark" className='custom-carousel'>
       <Carousel.Item>
         <img
           className="d-block w-100 h-250"
@@ -24,17 +24,6 @@ function ScrollingImage(){
         <Carousel.Caption>
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={image2}
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
