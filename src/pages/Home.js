@@ -6,7 +6,7 @@ function Homepage(){
         return (
             <div >
                 <ScrollingImage/>
-                <Mission />
+                <Mission/>
             </div>
           );
         };
